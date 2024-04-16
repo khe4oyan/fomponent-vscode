@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 
 function folderIsEmpty(folderPath) {
   try {
@@ -10,7 +11,7 @@ function folderIsEmpty(folderPath) {
 }
 
 function getFileName(folderPath) {
-  const folderName = folderPath.split("\\");
+  const folderName = folderPath.split(path.sep);
   return folderName[folderName.length - 1];
 }
 

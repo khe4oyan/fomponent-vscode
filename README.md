@@ -18,11 +18,6 @@
 
 - (the list will be updated)
 
-## Release Notes
-
-### 1.0.0
-- Initial version
-
 ---
 
 **Enjoy!**

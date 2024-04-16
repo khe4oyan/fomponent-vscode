@@ -11,8 +11,6 @@ const { createFiles } = require("./helpers/file");
 const { getFileName, folderIsEmpty } = require("./helpers/helpers"); 
 
 function activate(context) {
-  console.log("\n====== RUN ======");
-
   const disposable = vscode.commands.registerCommand("fomponent.createComponent",
     async (uri) => {
       if (!uri) {
