@@ -6,6 +6,7 @@
 ## Features
 - Rapid Component Creation: Simply right-click on a folder in the Visual Studio Code file explorer, select 'Create Component', and instantly the necessary files (.jsx, .module.css, index.js) will be generated.
 - Automatic Filling: All generated files already contain basic templates, allowing you to focus on more important tasks.
+- You can create multiple components with just one click. Simply open the context menu, select "Create Multi Components", and enter the names of the components you need.
 
 ## Future Version Plans
 

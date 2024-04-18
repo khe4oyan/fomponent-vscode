@@ -2,7 +2,7 @@
   "name": "fomponent",
   "displayName": "Fomponent",
   "description": "Fomponent is a tool for instant creation of components in your project",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "khechoyan",
   "engines": {
     "vscode": "^1.84.2"
@@ -27,7 +27,7 @@
         "title": "Create Component"
       },
       {
-        "command": "fomponent.createMultiComponent",
+        "command": "fomponent.createMultiComponents",
         "title": "Create Multi Components"
       }
     ],
