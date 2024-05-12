@@ -2,6 +2,7 @@
 	Fomponent is a tool for instant creation of components in your project
 
 ### Extension link: [VSCode Marketplace - Fomponent](https://marketplace.visualstudio.com/items?itemName=khechoyan.fomponent)
+### Suggestions for improving the project: [Google Form(anonym)](https://forms.gle/7UhpcF347ijUo7sB8)
 
 ## Features
 - Rapid Component Creation: Simply right-click on a folder in the Visual Studio Code file explorer, select 'Create Component', and instantly the necessary files (.jsx, .module.css, index.js) will be generated.
