@@ -1,13 +1,13 @@
-## Release Notes
+# 🔄 Changelog
 
 ### 1.1.1
-- Bug fix: did not show in the context menu
+- **Fix**: Resolved issue where the extension didn't appear in some context menus.
 
 ### 1.1.0
-- Now you can create multiple components with just one click. Simply open the context menu, select "Create Multi Components", and enter the names of the components you need.
+- **New Feature**: Added 'Create Multi Components' support.
 
 ### 1.0.2
-- Requirements for the editor version have been lowered from 1.88.0 to 1.84.2
+- **Compatibility**: Lowered minimum VS Code version requirement to **1.84.2**.
 
 ### 1.0.1
-- Bug fix: for Mac OS
+- **Fix**: Stability improvements for macOS users.

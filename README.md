@@ -1,24 +1,37 @@
-# Fomponent
-	Fomponent is a tool for instant creation of components in your project
+# Fomponent 🧩
 
-### Extension link: [VSCode Marketplace - Fomponent](https://marketplace.visualstudio.com/items?itemName=khechoyan.fomponent)
+Fomponent is a VS Code extension designed for instant React component creation. Stop wasting time manually creating folders and files — generate a complete, templated component structure with a single click.
 
-## Features
-- Rapid Component Creation: Simply right-click on a folder in the Visual Studio Code file explorer, select 'Create Component', and instantly the necessary files (.jsx, .module.css, index.js) will be generated.
-- Automatic Filling: All generated files already contain basic templates, allowing you to focus on more important tasks.
-- You can create multiple components with just one click. Simply open the context menu, select "Create Multi Components", and enter the names of the components you need.
 
-## Future Version Plans
 
-- Allow customization of component creation parameters for each project, providing flexibility for use in various development scenarios.
+## ✨ Features
+- **Rapid Creation**: Right-click any folder and select 'Create Component' to instantly generate `.jsx`, `.module.css`, and `index.js`.
+- **Automatic Templates**: All files come pre-filled with basic component boilerplate.
+- **Bulk Generation**: Use the 'Create Multi Components' command to generate multiple components at once by entering their names.
+- **Optimized Workflow**: Removes the repetitive task of setting up file structures, letting you focus on coding.
 
-- VSC Settings:
-	- Add the ability to enable or disable the creation of an index.js file for components.
-	- Provide the ability to enable or disable the use of style files in CSS module format.
-	- Allow you to choose between style file formats: modular or default, depending on the project requirements.
+## 🛠 Tech Stack
+- **Language**: JavaScript
+- **Platform**: VS Code Extension API
+- **Output**: Multi-file Boilerplate (JSX, CSS, JS)
 
-- (the list will be updated)
+## 🚀 Getting Started
 
----
+### Installation
+Find it on the **VS Code Marketplace**: [Fomponent](https://marketplace.visualstudio.com/items?itemName=khechoyan.fomponent)
 
-**Enjoy!**
+1. Open **VS Code**.
+2. Press `Ctrl+Shift+X`.
+3. Search for `Fomponent`.
+4. Click **Install**.
+
+## 📖 Usage
+1. **Single Component**: Right-click a folder → Select **Create Component** → Enter name.
+2. **Multiple Components**: Right-click a folder → Select **Create Multi Components** → Enter names separated by spaces or commas.
+
+### Generated Structure
+| File | Content |
+| :--- | :--- |
+| `ComponentName.jsx` | Standard functional component template |
+| `ComponentName.module.css` | Scoped CSS module file |
+| `index.js` | Export shorthand for cleaner imports |
